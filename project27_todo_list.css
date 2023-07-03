@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: auto;
+    height: 700px;
+    justify-content: center;
+    background-color: rgb(58, 61, 59);
+    color: rgb(179, 245, 14);
+    border: 5px solid rgb(241, 135, 135);
+    padding-top: 8px;
+}
+hr{
+    height: 10px;
+    background-color: rebeccapurple;
+    border: 2px solid red;
+}
+#add{
+    position: fixed;
+    top: 600px;
+    width: 5rem;
+    border: 2px solid rgb(71, 145, 180);
+    background-color: bisque;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.remove{
+    width: 6rem;
+    border: 2px solid rgb(71, 145, 180);
+    background-color: rgb(249, 252, 251);
+    border-radius: 10px;
+
+}
+p{
+    display: flex;
+    justify-content: space-between;
+}
